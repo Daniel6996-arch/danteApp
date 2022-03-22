@@ -1,0 +1,15 @@
+.full{
+    display: flex;
+    flex-direction: row;
+    width: 10vw;
+}
+.name{
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.center{
+    text-align: center;
+    color: brown;
+}
+  

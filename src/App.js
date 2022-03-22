@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Login from './components/login'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <div>
+     <a className='logo'>DanteApp</a>
+     </div>
+     <div className='flex'>
+       <button onClick={Login} className='login btn btn-outline-primary'>Login</button>
+       <button className='reg btn btn-outline-success'>Register</button>
+     </div>
     </div>
   );
 }
